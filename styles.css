@@ -1,3 +1,107 @@
-﻿body
-{
+﻿:root {
+    --background-dark: #D1D5DB;
+    --black: #000;
+    --container-color: #60A5FA;
+}
+
+html {    
+    background-color: var(--container-color);
+    color: var(--black);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container {
+    width: 300px;
+    margin: auto auto;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+label,
+input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: auto;
+}
+
+#lucky-number {
+    margin-bottom: 1.5rem;
+}
+
+#check-birthdate {
+    background-color: var(--background-dark);
+    border: 2px solid var(--black);
+    color: var(--black);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin-top: 1rem;
+    margin: auto;
+    display: block;
+}
+
+#output-message {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+}
+
+.list-inline {
+    display: inline;
+    padding: 1rem;
+}
+
+.footer-background {
+    margin-top: 6rem;
+}
+
+.footer-icon {
+    width: 2rem;
 }
