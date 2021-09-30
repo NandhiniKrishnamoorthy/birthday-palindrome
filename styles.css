@@ -16,6 +16,10 @@ body {
     margin: 0px;
 }
 
+h3{
+    text-align:center;
+    margin:auto;
+}
 * {
     font-family: "Lato", sans-serif;
 }
@@ -55,10 +59,7 @@ input {
     border: transparent;
     font-size: large;
     margin: auto;
-}
-
-#lucky-number {
-    margin-bottom: 1.5rem;
+    margin-bottom:1.5rem;
 }
 
 #check-birthdate {
